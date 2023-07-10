@@ -181,7 +181,7 @@
 .price-info-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 20px;
 }
 .price-header{
@@ -222,7 +222,8 @@
 .price-info-container2{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 30px;
     margin-top: 50px;
+    margin-right: 80px;
 }
