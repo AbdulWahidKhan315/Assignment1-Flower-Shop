@@ -19,6 +19,22 @@
     background-image: linear-gradient(20deg, yellow, red);
     color: white;
 }
+.header-primary {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 175px;
+    margin-bottom: 24px;
+}
+.description-primary {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
 
 /* Header style here */
 
@@ -69,13 +85,6 @@
     margin-bottom: 24px;
 }
 
-.featured-description {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 50px;
-}
 
 .featured-container {
     height: 70vh;
@@ -130,14 +139,7 @@
 }
 
 /* service section style here */
-.service-title {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    margin-top: 175px;
-    margin-bottom: 24px;
-}
+
 
 .service-info-container {
     display: flex;
@@ -154,7 +156,6 @@
 .service-info {
     text-align: center;
 }
-
 .service-description {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
@@ -162,29 +163,33 @@
     font-weight: 600;
     padding-top: 24px;
 }
+
 /* New "Flower price section" for BONUS marks  */
-.flower-price-container{
+.flower-price-container {
     background-image: url('/cover2.jpg');
     margin-bottom: 128px;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50px;
-    
+
 }
-.price-title{
+
+.price-title {
     color: #272727;
     text-align: center;
     font-size: 20px;
     font-weight: 800;
 }
-.price-info-container{
+
+.price-info-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 20px;
 }
-.price-header{
+
+.price-header {
     color: white;
     font-size: 80px;
     font-weight: 800;
@@ -192,20 +197,23 @@
     padding-top: 20px;
     text-align: center;
 }
-.price-info{
+
+.price-info {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
-.flower-name{
+
+.flower-name {
     color: yellow;
     text-align: center;
     font-size: 40px;
     font-weight: 600;
     padding-top: 24px;
 }
-.buy-button{
+
+.buy-button {
     border-radius: 8px;
     background-image: linear-gradient(20deg, yellow, red);
     padding: 20px 42px;
@@ -216,14 +224,58 @@
     cursor: pointer;
     margin-top: 10px;
 }
-.price-image{
+
+.price-image {
     border-radius: 20px;
 }
-.price-info-container2{
+
+.price-info-container2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 30px;
     margin-top: 50px;
     margin-right: 80px;
+}
+
+/* hot offer section style here */
+.hot-offer {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+}
+.offer-info{
+    text-align: center;
+}
+/* instagram images section style here */
+.instagram-img-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 128px;
+}
+/* Subscribe us section style here */
+.subscribe{
+    background-image: url('/cover3.png');
+    background-repeat: no-repeat;
+    height: 450px;
+    border-radius: 8px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 128px;
+}
+#input-email{
+    width: 50%;
+    padding: 20px;
+    border-radius: 8px;
+    border: 0;
+    margin-right: 15px;
+}
+.subscribe-header{
+    padding-top: 100px;
 }
